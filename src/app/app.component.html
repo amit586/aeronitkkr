@@ -1,0 +1,48 @@
+<nav class="white" role="navigation">
+  <div class="nav-wrapper container">
+    <a routerLink="/home"  class="brand-logo"><img src="assets/images/logo.png" style="margin: auto;" width="70"></a>
+    <ul class="right hide-on-med-and-down">
+        <li routerLinkActive="active"><a routerLink="/events" >HyperAero</a></li>
+        <!-- <li routerLinkActive="active"><a routerLink="/projects">Projects</a></li> -->
+        <li routerLinkActive="active"><a routerLink="/members">Members</a></li>
+        <li routerLinkActive="active"><a routerLink="/gallery">Gallery</a></li>
+    </ul>
+    <ul id="nav-mobile" class="sidenav">
+        <li><a routerLink="/events">Hyperaero</a></li>
+        <!-- <li><a routerLink="/projects">Projects</a></li> -->
+        <li><a routerLink="/members">Members</a></li>
+        <li><a routerLink="/gallery">Gallery</a></li>
+    </ul>
+    <a style="cursor: pointer;" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+  </div>
+</nav>
+<!--
+<app-home>
+</app-home> -->
+<!-- <app-members></app-members> -->
+<router-outlet></router-outlet>
+
+<footer class="page-footer teal">
+  <div class="container white-text">
+    <div class="row">
+      <div class="col l6 s12 ">
+        <h5 class="white-text">Contact Us</h5>
+        <p class="contact-general grey-text text-lighten-4">Amit : 8146192211</p>
+        <p class="grey-text text-lighten-4 contact-business">For business : Amit : 8146192211</p>
+      </div>
+      <div class="col l4 offset-l2 s12">
+        <h5 class="white-text">Postholders</h5>
+        <ul>
+          <li><a class="grey-text text-lighten-3 president" href="#!">Nachiket Sharma @ president</a></li>
+          <li><a class="grey-text text-lighten-3 vice-president" href="#!">Swikriti Kumari @ vice-president</a></li>
+          <li><a class="grey-text text-lighten-3 secretary" href="#!">Shivam Kumar @ secretary</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">
+    <a class="grey-text text-lighten-4 right" href="https://www.facebook.com/aeromodellingnitkkr/">Facebook Page</a>
+    </div>
+  </div>
+</footer>
